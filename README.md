@@ -1,5 +1,5 @@
 # DLL Proxy Generator
-This project creates a new DLL which sits between a game and the original DLL. This way you can intercept all DLL calls.  
+This project creates a new DLL which sits between a program and the original DLL. This way you can intercept all DLL calls.  
 Game -> Your proxy DLL -> Original DLL  
 Based on ProxiFy, by Kristoffer Blasiak (https://www.codeproject.com/Articles/1179147/ProxiFy-Automatic-Proxy-DLL-Generation). 
 ## Build
@@ -29,9 +29,9 @@ If your DLL is 64 bits (from [ProxiFy](https://www.codeproject.com/Articles/1179
 Now go to the dllmain.cpp file and find DllMain, you'll have to set up the original DLL path (you should use Process Explorer to find out the DLL path, use [this guide](https://kb.froglogic.com/misc/getting-list-of-loaded-dlls/)) and your code there.
 
 ### Use the new DLL
-Copy your new proxy inside the game directory.
-If everything is working, your game will launch up and work fine (best sign ever).
+Copy your new proxy inside the program directory.
+If everything is working, your program will launch up and work fine (best sign ever).
 
-Usage examples:
+### Usage examples
 * 32 bits: Soon
 * 64 bits: Soon
