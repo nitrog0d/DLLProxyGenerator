@@ -34,4 +34,4 @@ If everything is working, your program will launch up and work fine (best sign e
 
 ### Usage examples
 * 32 bits: Soon
-* 64 bits: Soon
+* 64 bits: [Temtem](https://github.com/nitrog0d/Temtem)
